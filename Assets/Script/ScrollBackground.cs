@@ -18,7 +18,7 @@ public class ScrollBackground : MonoBehaviour
 
     private void checkPosition()
     {
-        if (transform.position.x <= posXTrigger && !isStuck)
+        if (transform.position.x >= posXTrigger && !isStuck)
         {
             isStuck = true;   
             newPosition();
