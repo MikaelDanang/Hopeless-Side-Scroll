@@ -34,7 +34,7 @@ public class UIMenu : MonoBehaviour
         {   
             if (i > levelCurrent)
             {
-                levelButtons[i].interactable = false;
+                //levelButtons[i].interactable = false;
             }   
         }
     }
